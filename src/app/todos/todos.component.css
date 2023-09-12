@@ -1,0 +1,51 @@
+.tarjetas{
+    justify-content: center;
+    display:block;
+    position: relative;
+    text-align: center;
+    
+}
+.card {
+    display: flex;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color:  white;
+    width: 50%;
+    margin: 0rem auto;
+    align-items: center;
+  }
+  
+  .card-body {
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .item-lista {
+    list-style: circle;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .h1 {
+    text-align: center;
+
+  }
+  
+  .h5 {
+    margin-bottom: 0;
+  }
+  
+  .check {
+    width: 125rem;
+    float: left;
+    margin-left: 1rem;
+    margin-top: -3rem;
+    transform: scale(1.9); 
+  }
+  
+  
